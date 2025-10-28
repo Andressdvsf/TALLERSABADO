@@ -1,0 +1,64 @@
+let nombre = "alvaro"; // declaramos una variable
+const edad = 30;
+
+console.log(nombre);
+console.log(edad);
+//alert(edad);
+
+let texto = "alvaro javier";
+let numero = 30;
+let esVerdad = true;
+let sinValor;
+let vacio = null;
+
+console.log(texto, numero, esVerdad, sinValor, vacio);
+
+let a = 10;
+let b = 7;
+
+//operadores aritmeticos
+console.log("la suma es: ", a + b); // esta una suma dentro del console
+console.log("la resta es: ", a - b);
+console.log("la multiplicacion es: ", a * b);
+console.log("la division es: ", a / b);
+
+//operadores de comparacion
+console.log("a es mayor que b? ", a > b);
+console.log("a es menor que b? ", a < b);
+console.log("a es igual a b?", a == b);
+console.log("a es estrictamente igual a b?", a === b);
+
+//operadores lógicos
+console.log(5 > 3 && 10 > 7);
+console.log(5 > 3 && 10 < 7);
+console.log(5 > 3 || 10 < 7);
+console.log(!(5 > 3));
+
+// condicional SI
+
+let clima = "Lluvioso";
+
+if (clima === "lluvioso") {
+  console.log("Lleva paraguas");
+} else {
+  console.log("Disfruta el sol");
+}
+
+
+let nota1=5;
+let nota2=2.5;
+let nota3=3.4;
+let nota4=4.5;
+let nota5=4.3;
+
+let promed = (nota1+nota2+nota3+nota4+nota5)/5;
+if(promed >= 3){
+    console.log("Felicitaciones gano la materia te esperamos en el siguiente curso");
+}else{
+    console.log("Lo sentimos debes repetir el curso");
+}
+let contador = 0;
+while(contador<=50){
+  console.log("numero: "+contador);
+  contador+3;
+}
